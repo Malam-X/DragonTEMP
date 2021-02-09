@@ -1,0 +1,396 @@
+/*******************************************
+        Author   : DR4G0N5
+        Version  : 0.2
+        Team     : Cyber Dakwah Jatim
+        Whatsapp : +62 85731246143
+        "Thanks you!"
+********************************************/
+
+/******************
+      MAIN
+*******************/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.head {
+}
+.title::before {
+    content: '';
+    background: linear-gradient(to right, #6129a0, #6f36b0);
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+/*
+.title::after {
+    content: '';
+    background: linear-gradient(to right, #6129a0, #6f36b0);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}*/
+.title-bld {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.title-bld-5 {
+    font-family: 'Nunito', sans-serif;
+}
+.title {
+    font-size: 40px;
+}
+.int {
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+.intro {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  fonr-size: 20px;
+}
+/******************
+      NAVBAR
+*******************/
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right, #222a53, #1e233e);
+    padding: 0 !important;
+}
+.navbar-brand {
+    color: #fff !important;
+    padding: 1%;
+    margin: 1%;
+    font-weight: 150;
+
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 500;
+    float: right;
+}
+.fa-bars {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    outline: none !important;
+}
+
+/******************
+      LOGO
+*******************/
+
+.logo-img {
+    border-radius: 50%;
+    width: 46px;
+    height: 45px;
+}
+
+/******************
+      HOME
+*******************/
+
+#home-head {
+    color: #fff;
+    overflow: hidden;
+    padding-top: 5%;
+    background: linear-gradient(to right, #222a53, #1e233e);
+}
+#home-head button {
+    font-size: 50px;
+    margin-top: 100px;
+}
+#home-head .start-button {
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 1px solid #00ffdc;
+  margin-top: 25px;
+  margin-left: 60px;
+
+}
+
+#home-head .start-button:hover {
+  background: None;
+  color: #fff;
+  text-decoration: none;
+}
+.head-logos {
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.head-logoo {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+    padding-left: 60px;
+}
+.s-home {
+    width: 470px;
+    height: 10;
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 30px;
+}
+
+/******************
+      ABOUT US
+      about-s = about-s
+      about-l  = about-l
+*******************/
+
+#about-us {
+    margin: 100px 0;
+    color: #fff;
+    font-weight: 150;
+    font-size: 50px;
+    background: linear-gradient(to right, #222a53, #1e233e);
+}
+.about-uss {
+    margin: 100px 0;
+    color: #fff;
+    font-weight: 150;
+    font-size: 35px;
+    background: linear-gradient(to right, #222a53, #1e233e);
+}
+.about-s {
+  padding: 60px 0;
+  color: #fff;
+  background: linear-gradient(to right, #222a53, #1e233e);
+}
+
+.about-s .section-header {
+  margin-bottom: 40px;
+}
+
+.about-s .about-l-item {
+  text-align: center;
+}
+
+.about-s .about-l-item .about-l-img {
+  width: 160px;
+  border-radius: 50%;
+  border: 4px solid #1e233e;
+  margin: 0 auto;
+}
+
+.about-s .about-l-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #7c46b8;
+}
+
+.about-s .about-l-item h4 {
+  font-size: 14px;
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+
+.about-s .about-l-item .quote-icon-left, .about-s .about-l-item .quote-icon-right {
+  color: #fff;
+  font-size: 26px;
+}
+
+.about-s .about-l-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.about-s .about-l-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.about-s .about-l-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
+
+.about-s .owl-nav, .about-s .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.about-s .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff !important;
+}
+
+.about-s .owl-dot.active {
+  background-color: #fff !important;
+}
+.texts-p {
+    color: #fff;
+    font-weight: 90;
+    font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .about-s .about-l-item p {
+    width: 80%;
+  }
+}
+
+/******************
+      SKILL
+*******************/
+
+.skills {
+  padding: 60px 0;
+  background: linear-gradient(to right, #222a53, #1e233e);
+}
+
+.skil-s {
+  color: #fff;
+  font-size: 35px;
+}
+.skills .progress {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.skills .progress .skill {
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  text-align: left;
+  transition: .9s;
+}
+
+/******************
+      TEAM
+*******************/
+
+.team-ft {
+  background: linear-gradient(to right, #222a53, #1e233e);
+}
+.team-ft .row + .row {
+  margin-top: 100px;
+}
+.o-team {
+  color: #fff;
+  font-size: 35px;
+}
+.team-ft h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.team-ft ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
+
+.team-ft ul li {
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.team-ft ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+
+.team-ft p:last-child {
+  margin-bottom: 0;
+}
+
+/******************
+      LEARNING
+*******************/
+.learn-ed {
+  background: linear-gradient(to right, #222a53, #1e233e);
+}
+.learn-ed .row + .row {
+  margin-top: 100px;
+}
+.o-team {
+  color: #fff;
+  font-size: 35px;
+}
+.learn-ed h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.learn-ed ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
+
+.learn-ed ul li {
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.learn-ed ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+
+.learn-ed p:last-child {
+  margin-bottom: 0;
+}
+
+.learn-text {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
