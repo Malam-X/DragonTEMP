@@ -1,2 +1,5 @@
 # DragonTEMP
-MR FREE WEBSITE MODERN IN HTML, CSS AND JavaScript
+SIMPLE WEBSITE MODERN IN HTML, CSS AND JavaScript
+'''
+OPEN index.html
+'''
